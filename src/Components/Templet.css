@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 98.5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Box{
+    height: 73vh;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: normal;
+    box-shadow:white ;
+    width: 28vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    box-shadow: rgb(224, 37, 37);
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-sun-and-clouds-macroworld.jpg ");
+    opacity: 11;
+    z-index: 0;
+    
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.inputData{
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    /* background-color: aquamarine; */
+}
+.inputFeild{
+    margin-left: 86px;
+    width: 13vw;
+height: 7vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 40px;
+font-size: 20px;
+border-radius: 35px;
+}
+
+.info{
+    margin-top: 90px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    height: 40vh;
+}
+.location {
+    font-size: 40px;
+    display: flex;
+    /* padding-left: 30px; */
+    width: 100%;
+    /* margin-left: 30px; */
+    justify-content: center;
+
+}
+span2{
+    width: 70%;
+    margin-right: 80px;
+}
+i{
+    /* font-size: larger; */
+    width: 27%;
+    /* background-color: aquamarine; */
+    padding-left: 50px;
+    /* width: max-content; */
+    margin-right: 8px;
+    /* background-color: aqua; */
+    aspect-ratio: 1 / 1;
+  animation: 2s linear 0s infinite alternate sun-rise;
+}
+
+@keyframes sun-rise {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translatex(1.5vw);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translatex(0);
+  }
+}
+
+.temp{
+    margin-left: 99px;
+    position: relative;
+    bottom: 99px;
+    /* margin-bottom: 130px; */
+
+}
+.tempmin_max{
+    margin-left: 83px;
+    position: relative;
+    bottom: 115px;
+
+}
+/* .wave-one{
+    opacity: 0.3;
+    position:absolute;
+    top: 118%;
+    left: 34.8%;
+    background: white; 
+    width: 30vw;
+    height: 55vh;
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+  /* animation:   drift 2s linear 0s infinite alternate sun-rise; */
+  
+/* .wave-tree{
+    animation: drift 2s infinite linear alternate-reverse;
+    z-index:2 !important;
+    opacity: 0.2;
+}
+.wave-two{
+    animation: 20s waves linear infinite forwards;
+
+    opacity:0.1;
+    z-index:3 !important; */
+
+
